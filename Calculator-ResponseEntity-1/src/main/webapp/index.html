@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Insert title here</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" >
+</head>
+<body style="background-color: #66ff66">
+	<div class="container">
+		<form action="acceptinput" class="form" method="get">
+		
+			<div class="form-group">
+				<label class="control-label" for="txtFnum">Enter First Number</label>
+				<input type="text" class="form-control" name="txtFnum" placeholder="Number">
+			</div>
+			<div class="form-group">
+				<label class="control-label" for="txtSnum">Enter Second Number</label>
+				<input type="text" class="form-control" name="txtSnum" placeholder="Number">
+			</div>
+			
+			<div class="radio">
+				<label class="control-label"><input type="radio" name="radChoice" value="a" checked>ADD</label>
+			</div>
+			<div class="radio">
+				<label class="control-label"><input type="radio" name="radChoice" value="s" checked>SUB</label>
+			</div>
+			<div class="radio">
+				<label class="control-label"><input type="radio" name="radChoice" value="m" checked>MUL</label>
+			</div>
+			<div class="radio">
+				<label class="control-label"><input type="radio" name="radChoice" value="d" checked>DIV</label>
+			</div>
+			
+			<input type="submit" class="btn btn-block btn-success" value="CALCULATE">
+		</form>
+	</div>
+</body>
+</html>
